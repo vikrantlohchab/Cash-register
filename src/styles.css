@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: white;
+  --off-green: #e9fce6e0;
+  --dark-gray: #6b7280d3;
+}
+
+span {
+  color: wheat;
+  font-size: 16px;
+}
+body {
+  background-color: #3d830b;
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+table,
+th,
+td {
+  border: 3px solid var(--primary-color);
+  border-collapse: collapse;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  margin: auto;
+}
+table {
+  margin-left: -5px;
+}
+
+table caption {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  /* color: var(--primary-color); */
+}
+
+.shaded {
+  background-color: wheat;
+}
+.unshaded {
+  background-color: rgba(243, 236, 236, 0.829);
+}
+
+.no-of-notes {
+  background-color: rgba(243, 236, 236, 0.829);
+}
+input {
+  display: block;
+  border-radius: 1rem;
+  font-size: larger;
+  padding: 0.25rem 1rem;
+  border: 5px solid wheat;
+  outline: none;
+  margin: auto;
+}
+
+button {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--primary-color);
+  color: #3d830b;
+  font-size: larger;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+footer p {
+  font-size: small;
+  padding: 0.05rem;
+  margin: 0rem;
+  color: var(--primary-color);
+}
